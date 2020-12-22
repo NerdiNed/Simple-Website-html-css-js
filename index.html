@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Website</title>
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">Neda Dehghan</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">
+            Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="about-page">
+            About</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#services" class="navbar__links" id="services-page">
+            Services</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="#sign-up" class="button" id="signup">
+            Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Section -->
+
+  <div class="main" id="home">
+    <div class="main__container">
+      <h1 class="main__heading">
+        Check out my <span>Work</span>
+      </h1>
+      <p class="main__description">Unlimited Possibilities</p>
+      <button class="main__btn"><a href="#">Explore</a></button>
+    </div>
+  </div>
+
+  <!-- About Me Section -->
+
+  <div class="about" id="about">
+    <div class="about__container">
+      <div class="about__img-container">
+        <div class="about__image-card"><i class="fas fa-layer-group"></i></div>
+      </div>
+      <div class="about__content">
+        <h1>What do I do?</h1>
+        <h2>I help you with your online presence</h2>
+        <p>Schedule a call or write me an email to learn more about my services</p>
+        <button class="main__btn"><a href="#">Schedule Call</a></button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Services Section -->
+
+  <div class="services" id="services">
+    <h1>My Projects</h1>
+    <div class="services__wrapper">
+      <div class="services__card">
+        <h2>Custom Websites</h2>
+        <p>MERN Stack Technologies</p>
+        <div class="services__btn"><button>Get Started</button></div>
+      </div>
+      <div class="services__card">
+        <h2>Full Stack Projects</h2>
+        <p>Smart Home Device with Raspberry Pi and Arduino</p>
+        <div class="services__btn"><button>Get Started</button></div>
+      </div>
+      <div class="services__card">
+        <h2>Vanilla JS Project</h2>
+        <p>Vanilla Js Game 8bit style</p>
+        <div class="services__btn"><button>Get Started</button></div>
+      </div>
+      <div class="services__card">
+        <h2>React E-Commerce</h2>
+        <p>Mock Book Store Site</p>
+        <div class="services__btn"><button>Get Started</button></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer / feature Section -->
+
+  <div class="about" id="contact me">
+    <div class="about__container">
+      <div class="about__content">
+        <h1>Interested in anything?</h1>
+        <h2>Write me today</h2>
+        <p>See how i can help you</p>
+        <button class="main__btn"><a href="#">contact me</a></button>
+      </div>
+      <div class="about__img-container">
+        <div class="about__image-card" id="card-2"><i class="fas fa-users"></i></div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
