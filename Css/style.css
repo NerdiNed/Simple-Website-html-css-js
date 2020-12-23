@@ -723,17 +723,17 @@
     margin-bottom: 2rem;
   }
 
-  .footer__link--wrapper {
+  .footer__link-wrapper {
     flex-direction: column;
   }
 
-  .social__media--wrap {
+  .social__media-wrap {
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .footer__link--items {
+  .footer__link-items {
     margin: 0;
     padding: 10px;
     width: 100%;
